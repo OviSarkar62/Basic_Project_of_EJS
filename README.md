@@ -11,3 +11,8 @@ To use EJS
 
 // create index.ejs inside views folder
 `res.render('index',{});`
+
+To run this project
+
+    npm install
+    npm start
