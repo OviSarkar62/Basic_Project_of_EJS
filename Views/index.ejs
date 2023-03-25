@@ -1,0 +1,17 @@
+<%- include("layout/header") %>
+    <main>
+      <form action="/" method="POST">
+        <input type="text" placeholder="Country Name" name="cName" />
+        <button type="submit">Add</button>
+      </form>
+      <ul>
+        <% if(country.length>0){ %>
+            <% for(let i=0;i<country.length;i++){ %>
+                <li><%= country[i] %></li>
+           <% } %>
+        <% }else{ %>
+        <p></p>
+        <% } %>
+      </ul>
+    </main>
+    <%- include("layout/footer") %>
