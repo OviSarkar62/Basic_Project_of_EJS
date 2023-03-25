@@ -4,10 +4,10 @@ In this project the EJS template engine is used to take normal input and show to
 To use EJS
 
 // first install ejs:
--npm install ejs
+`npm install ejs`
 
 // inside the server
--app.set('view engine', 'ejs');
+`app.set('view engine', 'ejs');`
 
 // create index.ejs inside views folder
--res.render('index',{});
+`res.render('index',{});`
