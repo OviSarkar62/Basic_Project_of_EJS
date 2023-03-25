@@ -14,5 +14,6 @@ Create index.ejs inside views folder
 
 To run this project
 
-    npm install
-    npm start
+`npm install`
+ 
+ `npm start`
