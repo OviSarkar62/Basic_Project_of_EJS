@@ -1,5 +1,5 @@
 # Basic Project of EJS
-In this project the EJS template engine is used to take normal input and show to the client side. To use EJS 
+In this project the EJS template engine is used with condition using loop with proper styling to take normal input and show to the client side. To use EJS 
 
 Install EJS:
 `npm install ejs`
