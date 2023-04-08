@@ -7,7 +7,7 @@ To use this project template, you will need to have Node.js installed on your co
 
 Once you have installed Node.js, you can clone this repository and install the required dependencies by running the following command:
 
-`npm install ejs`
+    npm install ejs
 
 Inside the server
 `app.set('view engine', 'ejs');`
@@ -18,5 +18,18 @@ Create index.ejs inside views folder
 ## Usage
 
 To run this project
-`npm install`
- `npm start`
+ 
+    npm install
+    npm start
+
+This will start the development server and open the web application in your default browser.
+
+This project template includes the following features:
+
+- Express.js server
+- EJS templating engine
+- Bootstrap CSS framework
+- Basic routing and view templates
+- Error handling middleware
+- 
+You can modify the existing files and add new files to customize the project template to your needs.
